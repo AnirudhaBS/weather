@@ -1,0 +1,28 @@
+.weatherBG{
+    background: url(../public/DSCN9916.jpg) ;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    color: white;
+}
+
+.weather-resultbox{
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    box-shadow: 5px;
+}
+
+.weatherIcon{
+    /* margin-top:0.5rem; */
+    height: 80px;
+    width: 80px;
+}
+.Temperature{
+    font-size: 70px;
+    font-weight: 600;
+}
